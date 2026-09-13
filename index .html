@@ -996,7 +996,7 @@
     // Official Kerala MVD metered auto-rickshaw rate:
     // Minimum fare Rs 30 for first 1.5 km, then Rs 15 per additional km.
     if(km <= 1.5) return 30;
-    const fare = 30 + Math.ceil(km - 1.5) * 15;
+    const fare = 40 + Math.ceil(km - 1.5) * 15;
     return fare;
   }
 
