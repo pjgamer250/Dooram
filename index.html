@@ -698,6 +698,7 @@
     // Minimum fare Rs 10 for first 2.5 km, then Re 1.00 (100 paise) per additional km.
     if(km <= 2.5) return 10;
     const fare = 10 + Math.ceil(km - 2.5) * 1.00;
+    else(km >= 2.5) return 10+1
     return fare;
   }
 
